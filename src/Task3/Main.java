@@ -17,7 +17,7 @@ public class Main {
         collectionOfRooms.add(bathRoom);
         collectionOfRooms.add(kitchen);
 
-        Building house = new Building(collectionOfRooms, 5);
+        Building house = new Building(collectionOfRooms, 2);
 
         countLampsInBuilding(house);
         countWindowsInBuilding(house);
